@@ -25,6 +25,8 @@ INST | string: name of the INST| Search and get the list of PIDs registered by a
 URL | string: the url you are searching for | Search and get the PID of an object with the selected url | https://epic.grnet.gr/api/v2/handles/11239/?URL=http://www.grnet.gr
 limit | int: the limit of results | Limit your results | https://epic.grnet.gr/api/v2/handles/11239/?URL=http://www.grnet.gr&limit=10
 
+You can search for any type if you know the exact spelling. It is also case sensitive.
+
 ####You may also:
 - combine the parameters to get the list of PIDs. (e.g. https://epic.grnet.gr/api/v2/handles/11239/?URL=http://www.grnet.gr&INST=GRNET).
 - use part of the term in the search parameter (e.g. search for PIDS that contain "grnet" in the URL https://epic.grnet.gr/api/v2/handles/11239/?URL=\*grnet\*).
